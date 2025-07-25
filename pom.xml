@@ -66,14 +66,14 @@
         </configuration>
       </plugin>
 
-      <!-- Site plugin (without reportPlugins here) -->
+      <!-- Site plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
         <version>4.0.0-M8</version>
       </plugin>
 
-      <!-- Jetty plugin (modern version) -->
+      <!-- Modern Jetty plugin -->
       <plugin>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
@@ -83,13 +83,11 @@
 
     <pluginManagement>
       <plugins>
-        <!-- You can replicate/manage plugin versions here similarly -->
-        <!-- Omitted for brevity -->
+        <!-- Add plugin versions for management here if needed -->
       </plugins>
     </pluginManagement>
   </build>
 
-  <!-- Correct reporting section -->
   <reporting>
     <plugins>
       <plugin>
